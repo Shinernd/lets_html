@@ -22,7 +22,7 @@
 8. *link-target attribute: _blank(새창, 새탭), _self(default, 같은 창(탭)), _parent(parent 창(상위 창)), _top(최상위 창), frame name(지정된 창)*
 9. *북마크 만드는 법: id 추가 후 href="#id"(same page), href="html_demo.html*id"(another page)*
 
-##day 3
+## day 3
 1. *image element의 width와 height는 style attribute로 컨트롤하는 게 좋음*
 2. *image float: 본문 안에 이미지 배치*
 3. *div / span: 블럭 단위, 또는 inline element에 style, class, id*
