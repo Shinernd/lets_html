@@ -21,3 +21,14 @@
 7. *css를 사용하면 link, visited, hover, active의 색깔 변경 가능*
 8. *link-target attribute: _blank(새창, 새탭), _self(default, 같은 창(탭)), _parent(parent 창(상위 창)), _top(최상위 창), frame name(지정된 창)*
 9. *북마크 만드는 법: id 추가 후 href="#id"(same page), href="html_demo.html*id"(another page)*
+
+##day 3
+1. *image element의 width와 height는 style attribute로 컨트롤하는 게 좋음*
+2. *image float: 본문 안에 이미지 배치*
+3. *div / span: 블럭 단위, 또는 inline element에 style, class, id*
+4. *class(.)와 id(#)의 차이점: class는 여러번 사용 가능! id는 한번만*
+5. *class를 여러개 줄 때는 띄어쓰기로 구분*
+6. *class, id를 CSS와 JavaScript에서(getElementsByClassName(), getElementById()) 사용*
+7. *viewport element를 포함하면 장치마다 맞춤 view 제공 가능 (반응형 웹) + style="(max-)width:100%;height:auto;font-size:10vw" + picture element(?) + Media Queries + CSS + Bootstrap*
+8. *base 태그로 기본 url과 target default를 설정*
+9. *Layout: <header>, <nav>, <section>, <article>, <aside>, <footer>, <details>, <summary>, <details>*

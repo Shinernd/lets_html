@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, XML, JavaScript">
+    <meta name="author" content="Shinernd">
+    <meta http-equiv="refresh" content="30">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="https://www.w3schools.com/images/" target="_blank">
+    <style>
+       .city {
+            background-color: tomato;
+            color: white;
+            padding: 10px;
+        } 
+    </style>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body style="background-color:powderblue;">
+    <h1 style="font-size:60px;">This is heading 1</h1>
+    <h2>This is heading 2</h2>
+    <h3>This is heading 3</h3>
+    <h4>This is heading 4</h4>
+    <h5>This is heading 5</h5>
+    <h6>This is heading 6</h6>
+    <hr>
+
+    <p title="I'm a tooltip">This is a paragraph.</p>
+    <p>This is another paragraph.<br>Next line here.</p>
+    <p style="color:red;">This is red!</p>
+    <p style="font-family:verdana;">This is verdana font.</p>
+    <p style="font-size:160%;">This size is 160%.</p>
+    <p style="text-align:center;">Centered paragraph.</p>
+
+    <pre>
+        My Bonnie lies over the ocean.
+
+        My Bonnie lies over the sea.
+
+        My Bonnie lies over the ocean.
+
+        Oh, bring back my Bonnie to me.
+    </pre>
+
+    <a href="http://www.w3schools.com">This is a link</a>
+
+    <img src="imgex.jpg" alt="image example" width="100" height="100">
+
+    <button>Click me</button>
+
+    <ul style="list-style-type:square">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+    <ol type="I">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+    <dl>
+        <dt>Coffee</dt>
+        <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+    </dl>
+
+    <ul>
+        <li>Coffee</li>
+        <li>Tea
+            <ul>
+                <li>Black tea</li>
+                <li>Green tea</li>
+            </ul>
+        </li>
+        <li>Milk</li>
+    </ul>
+
+    <p><b>This text is bold.</b></p>
+    <p><strong>This text is strong.</strong></p>
+    <p><i>This text is italic.</i></p>
+    <p><em>This text is emphasized.</em></p>
+
+    <h2>HTML <small>Small</small> Formatting</h2>
+    <h2>HTML <mark>Marked</mark> Formatting</h2>
+    <p>My favorite color is <del>blue</del> red.</p>
+    <p>My favorite <ins>color</ins> is red.</p>
+    <p>This is <sub>subscripted</sub> text.</p>
+    <p>This is <sup>superscripted</sup> text.</p>
+
+    <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+    <p>Here is a quote from WWF's website:</p>
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+        For 50 years, WWF has been protecting the future of nature.
+        The world's leading conservation organization,
+        WWF works in 100 countries and is supported by
+        1.2 million members in the United States and
+        close to 5 million globally.
+    </blockquote>
+
+    <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+    <address style="border:2px solid Tomato;">
+        Written by John Doe.<br> 
+        Visit us at:<br>
+        Example.com<br>
+        Box 564, Disneyland<br>
+        USA
+    </address>
+
+    <h1 style="background-color:rgb(255, 99, 71);">rgb(255, 99, 71)</h1>
+    <h1 style="background-color:#ff6347;">#ff6347</h1>
+    <h1 style="background-color:hsl(9, 100%, 64%);">hsl(9, 100%, 64%)</h1>
+
+    <h1 style="background-color:rgba(255, 99, 71, 0.5);">rgba(255, 99, 71, 0.5)</h1>
+    <h1 style="background-color:hsla(9, 100%, 64%, 0.5);">hsla(9, 100%, 64%, 0.5)</h1>
+
+    <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+    <bdo dir="rtl">This text will be written from right to left</bdo>
+
+    <a href="https://www.google.co.kr/" target="_blank">Visit Google!</a>
+    <a href="https://www.google.co.kr/" target="_top">Visit Google!</a>
+
+    <h2 id="to">Welcome</h2>
+    <a href="#to">Let's go</a>
+
+    <!--Image Maps-->
+    <img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+    <map name="workmap">
+        <area shape="rect" coords="34,44,270,350" href="computer.html" alt="Computer">
+        <area shape="rect" coords="290,172,333,250" href="phone.html" alt="phone.html">
+        <area shape="circle" coords="337,300,44" href="coffee.html" alt="Coffee">
+    </map>
+    
+    <!--The picture Element-->
+    <picture>
+        <source media="(min-width: 650px)" srcset="img_pink_flowers.jpg">
+        <source media="(min-width: 465px)" srcset="img_white_flower.jpg">
+        <img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+    </picture>
+
+    <table style="width:100%" id="t01">
+        <caption>caption here</caption>
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th> 
+          <th colspan="2">Age</th>
+        </tr>
+        <tr>
+          <td>Jill</td>
+          <td>Smith</td> 
+          <td>50</td>
+          <td>49</td>
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Jackson</td> 
+          <td>94</td>
+          <td>92</td>
+        </tr>
+      </table>
+
+    <h2 class="city">London</h2>
+    <p>London is the capital of England.</p>
+    <h2 class="city">Paris</h2>
+    <p>Paris is the capital of France.</p>
+    <h2 class="city">Tokyo</h2>
+    <p>Tokyo is the capital of Japan.</p>
+
+    <iframe src="https://www.google.co.kr/"></iframe>
+    <noscript><p>자바스크립트 기능을 꺼두면 실행</p></noscript>
+
+    <code>
+        x = 5;<br>
+        y = 6;<br>
+        z = x + y;
+    </code> 
+
+    <p>Save the document by pressing <kbd>Ctrl + S</kbd></p>
+    <p>If you input wrong value, the program will return <samp>Error!</samp></p>
+    <p>Einstein wrote: <var>E</var> = <var>mc</var><sup>2</sup>.</p>
+</body>
+</html>
