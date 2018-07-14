@@ -31,4 +31,11 @@
 6. *class, id를 CSS와 JavaScript에서(getElementsByClassName(), getElementById()) 사용*
 7. *viewport element를 포함하면 장치마다 맞춤 view 제공 가능 (반응형 웹) + style="(max-)width:100%;height:auto;font-size:10vw" + picture element(?) + Media Queries + CSS + Bootstrap*
 8. *base 태그로 기본 url과 target default를 설정*
-9. *Layout: <header>, <nav>, <section>, <article>, <aside>, <footer>, <details>, <summary>, <details>*
+9. *Layout(semantic elements): header, nav, section, article, aside, footer, details, summary, details*
+10. *input type: text, password, submit, reset, radio, checkbox, button, color, date, datetime-local, email, month, number, range, search, tel, time, url, week*
+11. *input attribute: value, readonly, disabled, size, maxlength, autocomplete, autofocus, form(form태그 밖에서 포함), formaction, formenctype(post방식에서 data 인코딩 방식), formmethod(form의 method보다 우선됨), formnovalidated, formtarget, height and width, list, min and max, multiple, pattern(regexp), placeholder, required, step(input에 화살표를 누를 때마다 증감되는 크기)*
+12. *form attribute: autocomplete, novalidate(유효성 검증x)*
+13. *createElement 가능*
+14. HTML5Shiv?
+15. *plug-ins: object, embed*
+16. *iframe 태그로 youtube*

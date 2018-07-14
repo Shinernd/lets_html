@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h2>HTML Forms</h2>
+
+    <form action="/action_page.php">
+        <fieldset>
+            <legend>Personal information:</legend>
+            First name:<br>
+            <input type="text" name="firstname" value="Mickey"><br>
+             Last name:<br>
+            <input type="text" name="lastname" value="Mouse"><br><br>
+            <input type="submit" value="Submit"> <!--text, radio, submit-->
+        </fieldset>
+    </form>
+
+    <h2>Radio Buttons</h2>
+
+    <form>
+        <input type="radio" name="gender" value="male" checked>Male<br>
+        <input type="radio" name="gender" value="female">Female<br>
+        <input type="radio" name="gender" value="other">Other
+    </form>
+
+    <h2>HTML Form Elements</h2>
+
+    <input name="firstname" type="text">
+    <select name="cars" size="3" multiple>
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option>
+    </select>
+    <textarea name="message" style="width:200px; height:600px">
+        The cat was playing in the garden.
+    </textarea>
+    <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+
+    <form action="/action_page.php">
+        <input list="browsers">
+        <datalist id="browsers">
+            <option value="Internet Explorer">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+             <option value="Safari">
+        </datalist> 
+    </form>
+
+    <form action="/action_page.php" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+    </form>
+
+    
+</body>
+</html>
