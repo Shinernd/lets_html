@@ -39,3 +39,20 @@
 14. HTML5Shiv?
 15. *plug-ins: object, embed*
 16. *iframe 태그로 youtube*
+
+# lets_css
+## day 4
+1. *margin collapse: 같은 공간(사이)에 대해 다른 margin값을 지정한 두개의 element가 있다면 최대값 적용, inherit을 통해 같은 값을 적용 가능*
+2. *width를 %로 지정 가능 (창에 대한 비율), max-width*
+3. *content<padding<border<(outline-offset<)outline<margin*
+4. *text-align: justify; (양옆 맞춤)*
+5. *Font Awesome Icons: <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">*
+6. *link는 4개의 상태를 가짐: a:link, a:visited, a:hover, a:active*
+
+## day 5
+1. *div style="overflow-x:auto;" around the table element -> responsive*
+2. *display: inline(default, 높이넓이 무시, 글자처럼 취급), block(줄바꿈o, 높이넓이 적용), inline-block(높이넓이 적용, 글자처럼 취급)*
+3. *position: static, relative, fixed, absolute(be positioned relative to the nearest positioned ancestor), sticky*
+4. *z-index: layer(숫자가 작을수록(-1) 뒤에 배치)*
+5. *clear: float를 무시하게 해주는 기능,* clearfix?(::after)
+6. Selector?
