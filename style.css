@@ -191,3 +191,37 @@ span.c {
     border: 1px solid blue;        
     background-color: yellow; 
 }
+
+.center {
+    text-align: center;
+    border: 3px solid green;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.center p {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+p:first-child {
+    color: blue;
+}
+
+p i:first-child {
+    color: blue;
+}
+
+p:first-child i {
+    color: blue;
+}
+
+q:lang(no) {
+    quotes: "~" "~";
+}

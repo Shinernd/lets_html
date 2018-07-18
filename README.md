@@ -1,4 +1,4 @@
-# lets_html
+# lets_HTML
 ## day 1
 0. additional information about HTML elements called ATTRIBUTE
 1. *lang attribute declared language(en), dialect(US)*
@@ -9,7 +9,7 @@
 6. *img tag: src(source file), alt(alternative text/묘사)*
 7. *blockquote tag는 줄바꿈을 인식함*
 8. *abbreviation for giving info to browsers, translation systems, search-engines*
-9. 쓸모 없어 보이는 태그도 용도가 다 있다
+9. **쓸모 없어 보이는 태그도 용도가 다 있다**
 
 ## day 2
 1. *Color Values_RGB Value: rgb(red, green, blue) / HEX Value: #rrggbb / HSL Value: hsl(hue, saturation, lightness), hue=rgb, saturation=채도, lightness=명도 / RGBA Value: rgba(red, green, blue, alpha) / hsla(hue, saturation, lightness, alpha*
@@ -36,11 +36,11 @@
 11. *input attribute: value, readonly, disabled, size, maxlength, autocomplete, autofocus, form(form태그 밖에서 포함), formaction, formenctype(post방식에서 data 인코딩 방식), formmethod(form의 method보다 우선됨), formnovalidated, formtarget, height and width, list, min and max, multiple, pattern(regexp), placeholder, required, step(input에 화살표를 누를 때마다 증감되는 크기)*
 12. *form attribute: autocomplete, novalidate(유효성 검증x)*
 13. *createElement 가능*
-14. HTML5Shiv?
+14. **HTML5Shiv?**
 15. *plug-ins: object, embed*
 16. *iframe 태그로 youtube*
 
-# lets_css
+# lets_CSS
 ## day 4
 1. *margin collapse: 같은 공간(사이)에 대해 다른 margin값을 지정한 두개의 element가 있다면 최대값 적용, inherit을 통해 같은 값을 적용 가능*
 2. *width를 %로 지정 가능 (창에 대한 비율), max-width*
@@ -54,5 +54,10 @@
 2. *display: inline(default, 높이넓이 무시, 글자처럼 취급), block(줄바꿈o, 높이넓이 적용), inline-block(높이넓이 적용, 글자처럼 취급)*
 3. *position: static, relative, fixed, absolute(be positioned relative to the nearest positioned ancestor), sticky*
 4. *z-index: layer(숫자가 작을수록(-1) 뒤에 배치)*
-5. *clear: float를 무시하게 해주는 기능,* clearfix?(::after)
-6. Selector?
+5. *clear: float를 무시하게 해주는 기능,* **clearfix?(::after)**
+6. **Selector?**
+
+## day 6
+1. *descendant selector: div p (div element 안에 있는 모든 p), child selector: div>p (div element의 immediate children p), adjacent sibling selector: div+p (div element 바로 다음의 p만(div 제외)), general sibling selector: div~p (div element의 뒤에 존재하는 모든 sibling p (앞과 div 제외))*
+2. *pseudo-classes: define a special state of an element*
+3. *div:hover p{} (div위에 마우스가 가면 p의 style 변경)*
